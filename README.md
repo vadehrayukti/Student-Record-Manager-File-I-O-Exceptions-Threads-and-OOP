@@ -54,4 +54,5 @@ A loader thread displays simulated “saving…” animation while writing stude
 3. The program fetches the student using: manager.findStudent(roll)
 4. Student details are displayed.
 
-5. Records are saved using:
+5. Records are saved using: manager.saveAllWithLoading();
+6. Program ends with cleanup and printed confirmation.
